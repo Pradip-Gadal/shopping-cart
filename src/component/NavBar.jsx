@@ -10,7 +10,7 @@ const NavBar = () => {
     const [dropDownState, setDropDownState] = useState(false);
 
   return (
-    <div className='w-full h-[100px] bg-gray-900 flex flex-row justify-between items-center px-10 m-1 rounded-3xl text-white'>
+    <div className='w-full max-h-[100px] bg-gray-900 flex flex-row justify-between items-center px-10 py-8 m-1 rounded-3xl text-white'>
       
       <h2 className='font-bold text-yellow-500 border-2 border-yellow-500 rounded-md px-3 h-10 flex items-center'>SHOPING-CART</h2>
 
